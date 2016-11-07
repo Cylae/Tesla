@@ -1,6 +1,7 @@
 #firstpage{
     background-image: url(images/hero_bg.jpg);
     background-size: 100%;
+    display: block;
 }
 
 #menu ul li{
@@ -22,6 +23,13 @@
     color:white;
 }
 
+#corpse{
+    text-align: left;
+    float: right;
+    color: #cdcdcd;
+    margin: 290px -550px;
+}
+
 #carroussel ul li{
     list-style: none;
     font-size: 15px;
@@ -31,13 +39,59 @@
 #carroussel a{
     color: #adadad;
     text-decoration: none;
+    font-size: 25px;
 }
 
 #carroussel a:hover{
     color:white;
+    font-size: 30px;
 }
 
 #carroussel li{
     line-height: 20px;
     font-size: 25px;
+}
+
+#carroussel{
+    margin-top: 450px;
+}
+
+#carbonfiber{
+    display: inline-block;
+    float: left;
+    background: #62647d;
+    width: 50%;
+    height: 320px;
+}
+
+#exterior{
+    background-image: url(images/exterior.jpg);
+    background-size: 50%;
+    height: 320px
+}
+
+#premiuminterrior {
+    display: inline-block;
+    background: #30313e;
+    width: 50%;
+    height: 320px; 
+}
+
+#interior{
+    background-image: url(images/interior.png);
+    background-size: 100%;
+    height: 320px;
+}
+
+#bottom {
+    text-decoration: none;
+    color: white;
+}
+
+#bottombis{
+    text-align: center;
+    background: #62647d;
+    width: 100%;
+    height: 80px;
+    padding-top: 20px;
 }
