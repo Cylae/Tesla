@@ -1,90 +1,43 @@
-#first_page{
-	font-family: "PF BeauSans Pro";
-	font-size: 20px;
-	color: #cdcdcd;
+#firstpage{
+    background-image: url(images/hero_bg.jpg);
+    background-size: 100%;
 }
 
-#first_page{
-    background: url(images/hero_bg.jpg) no-repeat bottom left;
-}
-
-p{
+#menu ul li{
+    list-style: none;
+    float: right;
+    display: inline-block;
+    padding-right: 3%;
+    padding-left: 3%;
     font-size: 15px;
-}
-
-#top li{
-	list-style-type: none;
-	float: left;
-	display: inline;
-    width: 125px;
-    margin: 25px;
-}
-
-#top ul{
-	float: right;
-}
-
-
-#top a{
-    color:lightgrey;
-}
-
-#top ul li a{
     text-decoration: none;
 }
-#top a:hover{
-    color:grey;
+
+#menu ul li a{
+    color: #adadad;
+    text-decoration: none;
 }
 
-#corpse{
-    overflow: hidden;
-    margin: 10px 20px;
-    margin-left: -270px;
+#menu a:hover{
+    color:white;
 }
 
-#corpse-content{
-float: right;
-	width: 30%;
-	margin-right: 1%;	
-	padding-bottom: 870px;
-}
-
-#corpse h1{
-	color:white;
-	font-size: 40px;
-}
-
-#corpse p{
-	color: #adadad;
-	margin: 20px 0;
+#carroussel ul li{
+    list-style: none;
     font-size: 15px;
+    text-decoration: none;
 }
 
-#corpse a{
-	color: #ffffff;
-	font-size: 25px;
-    font-weight: bold;
-	text-decoration: none;
-	text-transform: uppercase;
-	border:solid 3px #ffffff;
-	border-radius: 2px;
-    border-style: solid;
-	padding: 15px 20px; 
-	display: inline-block;
-    margin-top: 10px;
+#carroussel a{
+    color: #adadad;
+    text-decoration: none;
 }
 
-#corpse a:hover{
-  	color: white;
-	font-size: 25px;
-	text-decoration: none;
-	text-transform: uppercase;
-	border:solid 2px red;
-	border-radius: 2px;
-	padding: 15px 20px;
+#carroussel a:hover{
+    color:white;
 }
 
-    #corpse2{
-        background: url(images/exterior.jpg);
-    }
-	display: inline-block;  
+#carroussel li{
+    line-height: 20px;
+    font-size: 25px;
+}
